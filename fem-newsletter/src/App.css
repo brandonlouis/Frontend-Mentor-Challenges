@@ -14,10 +14,32 @@ body {
 }
 
 
+.newsletter {
+    animation: animatePopUp 0.8s;
+}
+.success {
+    animation: animatePopDown 0.6s;
+}
+
+@keyframes animatePopUp {
+    from {transform: translateY(100%); opacity: 0} 
+    to {transform: translateY(0); opacity: 100}
+}
+@keyframes animatePopDown {
+    from {transform: translateY(-100%); opacity: 0} 
+    to {transform: translateY(0); opacity: 100}
+}
+
+
 @media screen and (max-width: 770px) {
     body {
         background-color: white;
         overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .newsletter, .success {
+        animation: none;
     }
 }
 

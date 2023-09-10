@@ -19,7 +19,7 @@ export default function Footer() {
     } else {
         return (
             <>
-                <Box sx={{backgroundColor:'white', color:'darkgray', fontSize:'10px', width:'100vw', textAlign:'center'}}>
+                <Box sx={{backgroundColor:'white', color:'darkgray', fontSize:'10px', marginBottom:'5px', width:'100vw', textAlign:'center'}}>
                     Challenge by <a style={{color: 'gray'}} href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
                     Coded by <a style={{color: 'gray'}} href="https://github.com/brandonlouis?tab=repositories">Brandon Louis Chia</a>.
                 </Box>
