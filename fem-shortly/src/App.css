@@ -1,0 +1,51 @@
+/*
+Primary
+
+- Cyan: #2acfcf
+- Dark Violet: #3b3054
+
+Secondary
+
+- Red: #f46262
+
+Neutral
+
+- Gray: #bfbfbf
+- Grayish Violet: #9e9aa7
+- Very Dark Blue: #35323e
+- Very Dark Violet: #232127
+*/
+
+
+body {
+    color: hsl(255, 11%, 22%);
+    font-size: 18px;
+    font-family: Poppins, sans-serif !important;
+}
+
+.MuiButtonBase-root {
+    font-family: Poppins, sans-serif !important;
+}
+
+.NavBar .MuiButtonBase-root {
+    font-size: 13px;
+    color: gray;
+}
+
+.BoostLink {
+    background-image: url("img/bg-boost-desktop.svg");
+}
+
+.FooterLinks a {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.FooterLinks a:hover {
+    color: #2acfcf !important;
+}
+
+.FooterSubLinks a {
+    color: #bfbfbf !important;
+}
