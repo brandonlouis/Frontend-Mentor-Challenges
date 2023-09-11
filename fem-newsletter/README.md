@@ -12,7 +12,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -52,10 +51,6 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - Semantic HTML5 markup
 - CSS custom properties
-
-### What I learned
-
-This is my very first Frontend Mentor exercise, and by completing this brief and straightforward task, it has given me the opportunity to reacquaint myself with the principles of React.JS and hosting on Netlify.
 
 ## Author
 
