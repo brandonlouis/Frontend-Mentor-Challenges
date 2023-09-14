@@ -30,7 +30,7 @@ export default function Footer() {
                             <Box>
                             </Box>
                             <Box sx={{display:'flex', flexDirection:'column'}}>
-                                <a href='#' style={{marginBottom:'20px'}}>Features</a>
+                                <a href='#' style={{marginBottom:'20px'}}><b>Features</b></a>
 
                                 <Box className='FooterSubLinks' sx={{display:'flex', flexDirection:'column'}}>
                                     <a href='#'>Link Shortening</a>
@@ -39,7 +39,7 @@ export default function Footer() {
                                 </Box>
                             </Box>
                             <Box sx={{display:'flex', flexDirection:'column'}}>
-                                <a href='#' style={{marginBottom:'20px'}}>Resources</a>
+                                <a href='#' style={{marginBottom:'20px'}}><b>Resources</b></a>
 
                                 <Box className='FooterSubLinks' sx={{display:'flex', flexDirection:'column'}}>
                                     <a href='#'>Blog</a>
@@ -48,7 +48,7 @@ export default function Footer() {
                                 </Box>
                             </Box>
                             <Box sx={{display:'flex', flexDirection:'column', height:'120px'}}>
-                                <a href='#' style={{marginBottom:'20px'}}>Company</a>
+                                <a href='#' style={{marginBottom:'20px'}}><b>Company</b></a>
 
                                 <Box className='FooterSubLinks' sx={{display:'flex', flexDirection:'column'}}>
                                     <a href='#'>About</a>

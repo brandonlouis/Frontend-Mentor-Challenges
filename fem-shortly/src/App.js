@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -23,13 +22,9 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-        <Router>
-            <Navbar/>
-            <Routes>
-                <Route path="/" element={<Home />} />
-            </Routes>
-            <Footer/>
-        </Router>
+        <Navbar/>
+        <Home />
+        <Footer/>
     </ThemeProvider>
   );
 }
