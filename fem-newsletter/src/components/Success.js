@@ -1,5 +1,5 @@
-import { Box, Button } from '@mui/material'
 import React from 'react'
+import { Box, Button } from '@mui/material'
 import { useMediaQuery } from 'react-responsive'
 import { useLocation } from 'react-router-dom'
 import { ReactComponent as IconSuccessLogo } from '../img/icon-success.svg'

@@ -7,8 +7,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
-    - [Desktop](#desktop)
-    - [Mobile](#mobile)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -30,14 +28,8 @@ Users should be able to:
 
 ### Screenshots
 
-#### Desktop
-![desktop](./screenshots/desktop.jpeg)
-![desktopValidation](./screenshots/desktopValidation.jpeg)
-![desktopSuccess](./screenshots/desktopSuccess.jpeg)
-
-#### Mobile
-![mobile](./screenshots/mobile.jpeg)
-![mobileSuccess](./screenshots/mobileSuccess.jpeg)
+![desktop](./screenshots/desktop.png)
+![mobile](./screenshots/mobile.png)
 
 ### Links
 
@@ -49,6 +41,7 @@ Users should be able to:
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
+- [MUI](https://mui.com/) - React Library
 - Semantic HTML5 markup
 - CSS custom properties
 
