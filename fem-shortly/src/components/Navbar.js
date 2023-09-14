@@ -1,11 +1,15 @@
 import React from 'react'
 import { ReactComponent as Logo } from '../img/logo.svg'
-import { Box, Button } from '@mui/material'
+import { ReactComponent as Hamburger } from '../img/icon-hamburger.svg'
+import { Box, Button, Modal } from '@mui/material'
 import { useMediaQuery } from 'react-responsive'
 
 
 export default function Navbar() {
-    const isMobile = useMediaQuery({ query: '(max-width: 770px)' })
+    const isMobile = useMediaQuery({ query: '(max-width: 830px)' })
+    const [openModal, setOpenModal] = React.useState(false)
+    const openModalNavBar = () => setOpenModal(true)
+    const closeModalNavBar = () => setOpenModal(false)
 
     if (!isMobile) {
         return (
@@ -19,7 +23,7 @@ export default function Navbar() {
                     </Box>
                     <Box>
                         <Button variant="text">Login</Button>
-                        <Button variant="contained" size='small' color='primary' sx={{color:'white !important', borderRadius:'25px', marginLeft:'15px'}}>Sign Up</Button>
+                        <Button variant="contained" size='small' color='primary' sx={{color:'white !important', padding:'6px 17px', borderRadius:'50px', marginLeft:'15px'}}>Sign Up</Button>
                     </Box>
                 </Box>
             </>
@@ -27,9 +31,25 @@ export default function Navbar() {
     } else {
         return (
             <>
-                <Box>
-                    
+                <Box className="NavBar" sx={{display:'flex', justifyContent:'space-between', margin:'35px 7%'}}>
+                    <Box>
+                        <a href='/' style={{display:'flex', alignItems:'center'}}><Logo /></a>
+                    </Box>
+                    <Box>
+                        <Button variant='text' sx={{padding:'0', minWidth:'auto'}} onClick={openModalNavBar}><Hamburger /></Button>
+                    </Box>
                 </Box>
+
+                <Modal open={openModal} onClose={closeModalNavBar}>
+                    <Box className='ModalNavBar' sx={{display:'flex', flexDirection:'column', justifyContent:'space-evenly', margin:'100px 7%', padding:'10px 20px 20px', backgroundColor:'#3b3054', borderRadius:'10px', height:'300px'}}>
+                        <Button variant="text">Features</Button>
+                        <Button variant="text" sx={{margin:'0 15px'}}>Pricing</Button>
+                        <Button variant="text">Resources</Button>
+                        <hr style={{width:'100%', border:'1px solid #4d406a'}}/>
+                        <Button variant="text">Login</Button>
+                        <Button variant="contained" color='primary' sx={{color:'white !important', padding:'6px 17px', borderRadius:'50px'}} fullWidth>Sign Up</Button>
+                    </Box>
+                </Modal>
             </>
         )
     }

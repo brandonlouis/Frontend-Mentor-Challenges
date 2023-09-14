@@ -18,20 +18,77 @@ Neutral
 
 
 body {
-    color: hsl(255, 11%, 22%);
+    color: #3b3054;
     font-size: 18px;
     font-family: Poppins, sans-serif !important;
+    overflow-x: hidden;
 }
 
 .MuiButtonBase-root {
     font-family: Poppins, sans-serif !important;
 }
 
+.MuiInputBase-input {
+    font-family: Poppins, sans-serif !important;
+    border-radius: 10px !important;
+    background-color: white !important;
+}
+
+.MuiOutlinedInput-root:focus-within, .MuiOutlinedInput-notchedOutline { /* Textfield focus outline */
+    border-radius: 10px !important;
+}
+
+.css-1kosj89-MuiInputBase-root-MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline { /* Error outline */
+    border-width: 3px !important;
+}
+
+.MuiFormHelperText-root { /* Error text */
+    font-family: Poppins, sans-serif !important;
+    font-style: italic;
+    position: absolute;
+    margin: 0 !important;
+    top: 60px;
+}
+
+
+/* Navbar */
 .NavBar .MuiButtonBase-root {
     font-size: 13px;
     color: gray;
 }
+.NavBar .MuiButtonBase-root:hover {
+    color: #35323e;
+    font-weight: bold;
+}
 
+.css-1hkieba-MuiButtonBase-root-MuiButton-root:hover { /* For login button */
+    font-weight: unset !important;
+}
+
+.ModalNavBar {
+    animation: animatePopDown 0.3s ease-out;
+}
+
+
+/* Home */
+.ShortenLink {
+    background-image: linear-gradient(white 50%, #f0f0f5 50%);
+}
+
+.ShortenLinkBox {
+    background-image: url("img/bg-shorten-desktop.svg");
+}
+
+.css-1tvq1qn-MuiInputBase-root-MuiOutlinedInput-root { /* "Shorten a link here..." textfield's focus outline */
+    border-radius: 10px !important;
+}
+
+.css-1qw74c6-MuiButtonBase-root-MuiButton-root { /* "Shorten It!" button */
+    border-radius: 10px !important;
+}
+
+
+/* Footer */
 .BoostLink {
     background-image: url("img/bg-boost-desktop.svg");
 }
@@ -48,4 +105,38 @@ body {
 
 .FooterSubLinks a {
     color: #bfbfbf !important;
+}
+
+
+/* ANIMATION */
+@keyframes animatePopDown {
+    from {transform: translateY(-100%); opacity: 50} 
+    to {transform: translateY(0); opacity: 100}
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 830px) {
+
+    /* NavBar */
+    .MuiButtonBase-root {
+        color: white !important;
+        font-weight: 700 !important;
+    }
+
+
+    /* Home */
+    .BannerImg {
+        transform: scale(0.8);
+        overflow: visible;
+        width: 1px;
+        height: 375px;
+        margin-top: -50px;
+    }
+
+    .ShortenLinkBox {
+        background-image: url("img/bg-shorten-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: 100% 0;
+    }
 }
