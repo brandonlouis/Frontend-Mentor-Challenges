@@ -9,6 +9,7 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
   - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
+  - [Useful Resources](#useful-resources)
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -43,6 +44,10 @@ Users should be able to:
 - [MUI](https://mui.com/) - React Library
 - Semantic HTML5 markup
 - CSS custom properties
+
+### Useful resources
+
+- [shrtcode](https://shrtco.de/) - API utilized for shortening of URLs.
 
 ## Author
 
