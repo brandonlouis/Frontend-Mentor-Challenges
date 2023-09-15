@@ -3,6 +3,10 @@ body {
     overflow-y: hidden;
 }
 
+p {
+    line-height: 1.5;
+}
+
 .MuiButtonBase-root:hover {
     background-image: linear-gradient(90deg, rgba(253,85,121,1) 0%, rgba(254,107,69,1) 100%) !important;
     background-color: #282b43 !important;
