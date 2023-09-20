@@ -31,7 +31,7 @@ export default function Navbar() {
     } else {
         return (
             <>
-                <Box className="NavBar" sx={{display:'flex', justifyContent:'space-between', margin:'35px 7%'}}>
+                <Box className="NavBar" sx={{display:'flex', justifyContent:'space-between', padding:'35px 7% 25px', position:'fixed', width:'86%', backgroundColor:'white', zIndex:'3'}}>
                     <Box>
                         <a href='/' style={{display:'flex', alignItems:'center'}}><Logo /></a>
                     </Box>
@@ -41,7 +41,7 @@ export default function Navbar() {
                 </Box>
 
                 <Modal open={openModal} onClose={closeModalNavBar}>
-                    <Box className='ModalNavBar' sx={{display:'flex', flexDirection:'column', justifyContent:'space-evenly', margin:'100px 7%', padding:'10px 20px 20px', backgroundColor:'#3b3054', borderRadius:'10px', height:'300px'}}>
+                    <Box className='ModalNavBar' sx={{display:'flex', flexDirection:'column', justifyContent:'space-evenly', margin:'118px 7% 25px', padding:'10px 20px 20px', backgroundColor:'#3b3054', borderRadius:'10px', height:'300px'}}>
                         <Button variant="text">Features</Button>
                         <Button variant="text" sx={{margin:'0 15px'}}>Pricing</Button>
                         <Button variant="text">Resources</Button>

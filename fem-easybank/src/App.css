@@ -125,10 +125,14 @@ h2 {
 
 /* RESPONSIVE */
 @media (max-width: 1100px) {
+
+    /* NAVBAR */
     .Navbar {
         width: 50% !important;
     }
     
+
+    /* HOME */
     .BannerImg {
         width: 120%;
         bottom: 0;
@@ -141,6 +145,7 @@ h2 {
 }
 
 @media (max-width: 750px) {
+
     body {
         overscroll-behavior: none;
     }
@@ -151,12 +156,20 @@ h2 {
         font-size: 16px !important;
     }
 
+
+    /* NAVBAR */
     .MuiBackdrop-root, .MuiModal-root {
         margin-top: 70px;
         background-color: transparent !important;
         background: linear-gradient(to top, rgba(255,255,255,0) 0%, rgba(50,55,80,0.8) 100%);
     }
 
+    .ModalNavBar {
+        animation: animatePopDown 0.3s ease-out;
+    }
+
+
+    /* HOME */
     .BannerTop {
         background-image: url(./img/bg-intro-mobile.svg);
         background-repeat: no-repeat;
@@ -174,4 +187,11 @@ h2 {
     .WhyChooseLogo {
         margin-bottom: 10px;
     }
+}
+
+
+/* ANIMATION */
+@keyframes animatePopDown {
+    from {transform: translateY(-100%); opacity: 50} 
+    to {transform: translateY(0); opacity: 100}
 }

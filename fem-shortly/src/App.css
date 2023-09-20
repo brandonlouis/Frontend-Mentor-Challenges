@@ -52,7 +52,7 @@ body {
 }
 
 
-/* Navbar */
+/* NAVBAR */
 .NavBar .MuiButtonBase-root {
     font-size: 13px;
     color: gray;
@@ -66,12 +66,8 @@ body {
     font-weight: unset !important;
 }
 
-.ModalNavBar {
-    animation: animatePopDown 0.3s ease-out;
-}
 
-
-/* Home */
+/* HOME */
 .ShortenLink {
     background-image: linear-gradient(white 50%, #f0f0f5 50%);
 }
@@ -89,7 +85,7 @@ body {
 }
 
 
-/* Footer */
+/* FOOTER */
 .BoostLink {
     background-image: url("img/bg-boost-desktop.svg");
 }
@@ -109,24 +105,25 @@ body {
 }
 
 
-/* ANIMATION */
-@keyframes animatePopDown {
-    from {transform: translateY(-100%); opacity: 50} 
-    to {transform: translateY(0); opacity: 100}
-}
-
-
 /* RESPONSIVE */
 @media (max-width: 830px) {
 
-    /* NavBar */
+    /* NAVBAR */
     .MuiButtonBase-root {
         color: white !important;
         font-weight: 700 !important;
     }
 
+    .ModalNavBar {
+        animation: animatePopDown 0.3s ease-out;
+    }
 
-    /* Home */
+
+    /* HOME */
+    .PageContent {
+        padding-top: 106px;
+    }
+
     .BannerImg {
         transform: scale(0.8);
         overflow: visible;
@@ -140,4 +137,11 @@ body {
         background-repeat: no-repeat;
         background-position: 100% 0;
     }
+}
+
+
+/* ANIMATION */
+@keyframes animatePopDown {
+    from {transform: translateY(-100%); opacity: 50} 
+    to {transform: translateY(0); opacity: 100}
 }
