@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/easybank-landing-page-using-reactjs](https://www.frontendmentor.io/solutions/responsive-easybank-landing-page-using-reactjs-qWnAIV7xpk)
+- Live Site URL: [https://blc7896530-fem-easybank.netlify.app/](https://blc7896530-fem-easybank.netlify.app/)
 
 ## My process
 
