@@ -53,7 +53,7 @@ h2 {
     padding: 30px 0;
     border-bottom: 4px solid transparent;
 }
-.Navbar a:hover {
+.Navbar a:hover, .Navbar .active {
     color: #333;
     border-bottom: 4px solid transparent;
     border-image: linear-gradient(90deg, #31d35c 0%, #2bb7da 100%);

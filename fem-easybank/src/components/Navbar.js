@@ -16,7 +16,7 @@ export default function Navbar() {
             <Box sx={{backgroundColor:'white', display:'flex', alignItems:'center', justifyContent:'space-between', padding:'0 10%', position:'relative', zIndex:'100'}}>
                 <a href="/"><Logo /></a>
                 <Box className='Navbar' sx={{display:'flex', width:'450px', justifyContent:'space-evenly'}}>
-                    <a href="#">Home</a>
+                    <a href="#" className='active'>Home</a>
                     <a href="#">About</a>
                     <a href="#">Contact</a>
                     <a href="#">Blog</a>
