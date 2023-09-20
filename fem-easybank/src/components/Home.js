@@ -133,7 +133,7 @@ export default function Home() {
                 </Box>
 
                 <Box sx={{display:'flex', flexDirection:'column', alignItems:'center', padding:'0 7% 80px', textAlign:'center', backgroundColor:'#fafafa'}}>
-                    <h2 style={{fontSize:'42px'}}>Next generation digital banking</h2>
+                    <h2 style={{fontSize:'45px'}}>Next generation digital banking</h2>
                     <p style={{marginTop:'0'}}>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
                     <Button variant="contained" sx={{marginTop:'20px'}}>Request Invite</Button>
                 </Box>
