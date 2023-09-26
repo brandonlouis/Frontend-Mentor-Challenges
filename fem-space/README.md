@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: [https://www.frontendmentor.io/solutions/space-tourism-multipage-website-using-reactjs](https://www.frontendmentor.io/solutions/responsive-space-tourism-multipage-website-using-reactjs-LL04XRzNU0)
+- Live Site URL: [https://blc7896530-fem-space.netlify.app/](https://blc7896530-fem-space.netlify.app/)
 
 ## My process
 
