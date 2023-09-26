@@ -1,0 +1,278 @@
+/*
+Primary color: #D0D6F9
+Secondary color: #FFFFFF
+Background color: #0B0D17
+*/
+
+body {
+    background-color: #0B0D17;
+    overscroll-behavior: none;
+    overflow-x: hidden;
+}
+
+
+/* NAVBAR */
+.NavLogo {
+    margin: 65px 65px 65px 60px;
+}
+
+.NavLinks {
+    padding: 35px 0;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+.NavLinks:hover {
+    border-bottom: 3px solid rgb(255,255,255, 0.4);
+}
+.NavLinks.active {
+    border-bottom: 3px solid white;
+}
+
+
+/* HOME */
+.HomeContent {
+    background-image: url('img/home/background-home-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+/* DESTINATION */
+.DestinationContent {
+    background: url('img/destination/background-destination-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.DestinationContent img {
+    animation: spin 120s linear infinite;
+}
+
+.DestinationSubLinks {
+    text-decoration: none;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+.DestinationSubLinks:hover {
+    border-bottom: 3px solid rgb(255,255,255, 0.4);
+}
+.DestinationSubLinks.active {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+
+/* CREW */
+.CrewContent {
+    background: url('img/crew/background-crew-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.CrewDot {
+    height: 15px;
+    width: 15px;
+    background-color: #FFF;
+    opacity: 0.2;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.CrewDot:hover {
+    opacity: 0.5;
+}
+.CrewDot.active {
+    opacity: 1;
+}
+
+
+/* TECHNOLOGY */
+.TechnologyContent {
+    background: url('img/technology/background-technology-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 1150px) {
+
+    /* NAVBAR */
+    .NavLogo {
+        margin: 0;
+        padding: 25px 40px;
+    }
+    .NavLinks {
+        padding: 40px 0;
+    }
+
+
+    /* HOME */
+    .HomeContent {
+        background-image: url('img/home/background-home-tablet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    /* DESTINATION */
+    .DestinationContent {
+        background: url('img/destination/background-destination-tablet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    /* CREW */
+    .CrewContent {
+        background: url('img/crew/background-crew-tablet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .CrewDot {
+        height: 10px;
+        width: 10px;
+    }
+
+
+    /* TECHNOLOGY */
+    .TechnologyContent {
+        background: url('img/technology/background-technology-tablet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    /* NAVBAR */
+    .NavLogo {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ModalNavBar {
+        animation: slideInRight 0.4s ease-in;
+    }
+
+    .ModalNavBar a {
+        text-decoration: none;
+    }
+
+    .MuiModal-backdrop {
+        background-color: transparent !important;
+    }
+
+    .CloseIcon {
+        position: absolute;
+        top: 38px;
+        right: 26px;
+    }
+
+    
+    /* HOME */
+    .HomeContent {
+        background-image: url('img/home/background-home-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    
+    /* DESTINATION */
+    .DestinationContent {
+        background: url('img/destination/background-destination-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .DestinationSubLinks {
+        padding-bottom: 8px;
+    }
+
+
+    /* CREW */
+    .CrewContent {
+        background: url('img/crew/background-crew-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    /* TECHNOLOGY */
+    .TechnologyContent {
+        background: url('img/technology/background-technology-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+/* ANIMATION */
+@keyframes spin {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-200%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(200%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInBottom {
+    from { transform: translateY(200%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInTop {
+    from { transform: translateY(-200%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+.SlideInLeft {
+    animation: slideInLeft 0.4s ease-out;
+}
+.SlideInRight {
+    animation: slideInRight 0.4s ease-out;
+}
+.SlideInBottom {
+    animation: slideInBottom 0.4s ease-out;
+}
+.SlideInTop {
+    animation: slideInTop 0.4s ease-out;
+}
+.FadeIn {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.SlideOutLeft {
+    animation: slideInLeft 0.4s ease-out reverse forwards;
+}
+.SlideOutRight {
+    animation: slideInRight 0.4s ease-out reverse forwards;
+}
+.SlideOutBottom {
+    animation: slideInBottom 0.4s ease-out reverse forwards;
+}
+.SlideOutTop {
+    animation: slideInTop 0.4s ease-out reverse forwards;
+}
+.FadeOut {
+    animation: fadeIn 0.5s ease-out reverse forwards;
+}
