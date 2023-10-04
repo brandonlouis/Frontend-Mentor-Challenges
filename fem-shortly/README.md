@@ -1,21 +1,18 @@
-# Shortly URL shortening API (ReactJS)
+![preview](./screenshots/preview.png)
 
-This is a solution to the [Shortly URL shortening API challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G).
+<h1 align="center">Shortly URL Shortening API (ReactJS)</h1>
 
-## Table of contents
+<div align="center">
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshots](#screenshots)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Useful Resources](#useful-resources)
-  - [Built with](#built-with)
-- [Author](#author)
+[Live](https://blc7896530-fem-shortly.netlify.app/)
+| [Solution](https://www.frontendmentor.io/solutions/shortly-url-shortening-api-using-reactjs-html-css-p8HYMdgBEv)
+| [Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
 
-## Overview
+Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
 
-### The challenge
+</div>
+
+## The challenge
 
 Users should be able to:
 
@@ -26,27 +23,17 @@ Users should be able to:
 - Receive an error message when the `form` is submitted if:
   - The `input` field is empty
 
-### Screenshots
+## Screenshots
 
 ![desktop](./screenshots/desktop.png)
 ![mobile](./screenshots/mobile.png)
 
-### Links
-
-- Solution URL: [https://www.frontendmentor.io/solutions/shortly-url-shortening-api-using-reactjs](https://www.frontendmentor.io/solutions/shortly-url-shortening-api-using-reactjs-html-css-p8HYMdgBEv)
-- Live Site URL: [https://blc7896530-fem-shortly.netlify.app/](https://blc7896530-fem-shortly.netlify.app/)
-
-## My process
-
-### Built with
+## Built with
 
 - [React](https://reactjs.org/) - JS library
 - [MUI](https://mui.com/) - React Library
 - Semantic HTML5 markup
 - CSS custom properties
-
-### Useful resources
-
 - [shrtcode](https://shrtco.de/) - API utilized for shortening of URLs.
 
 ## Author

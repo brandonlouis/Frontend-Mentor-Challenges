@@ -1,20 +1,18 @@
-# Shortly URL shortening API (ReactJS)
+![preview](./screenshots/preview.png)
 
-This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
+<h1 align="center">Space Tourism (ReactJS)</h1>
 
-## Table of contents
+<div align="center">
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshots](#screenshots)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+[Live](https://blc7896530-fem-space.netlify.app/)
+| [Solution](https://www.frontendmentor.io/solutions/responsive-space-tourism-multipage-website-using-reactjs-LL04XRzNU0)
+| [Challenge](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3)
 
-## Overview
+Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
 
-### The challenge
+</div>
+
+## The challenge
 
 Users should be able to:
 
@@ -22,20 +20,13 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - View each page and be able to toggle between the tabs to see new information
 
-### Screenshots
+## Screenshots
 
 ![desktop](./screenshots/desktop.png)
 ![tablet](./screenshots/tablet.png)
 ![mobile](./screenshots/mobile.png)
 
-### Links
-
-- Solution URL: [https://www.frontendmentor.io/solutions/space-tourism-multipage-website-using-reactjs](https://www.frontendmentor.io/solutions/responsive-space-tourism-multipage-website-using-reactjs-LL04XRzNU0)
-- Live Site URL: [https://blc7896530-fem-space.netlify.app/](https://blc7896530-fem-space.netlify.app/)
-
-## My process
-
-### Built with
+## Built with
 
 - [React](https://reactjs.org/) - JS library
 - [MUI](https://mui.com/) - React Library

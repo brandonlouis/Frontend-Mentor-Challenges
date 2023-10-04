@@ -1,39 +1,30 @@
-# Easybank landing page (ReactJS)
+![preview](./screenshots/preview.png)
 
-This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN).
+<h1 align="center">Easybank (ReactJS)</h1>
 
-## Table of contents
+<div align="center">
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshots](#screenshots)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+[Live](https://blc7896530-fem-easybank.netlify.app/)
+| [Solution](https://www.frontendmentor.io/solutions/responsive-easybank-landing-page-using-reactjs-qWnAIV7xpk)
+| [Challenge](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
 
-## Overview
+Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
 
-### The challenge
+</div>
+
+## The challenge
 
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshots
+## Screenshots
 
 ![desktop](./screenshots/desktop.png)
 ![mobile](./screenshots/mobile.png)
 
-### Links
-
-- Solution URL: [https://www.frontendmentor.io/solutions/easybank-landing-page-using-reactjs](https://www.frontendmentor.io/solutions/responsive-easybank-landing-page-using-reactjs-qWnAIV7xpk)
-- Live Site URL: [https://blc7896530-fem-easybank.netlify.app/](https://blc7896530-fem-easybank.netlify.app/)
-
-## My process
-
-### Built with
+## Built with
 
 - [React](https://reactjs.org/) - JS library
 - [MUI](https://mui.com/) - React Library
