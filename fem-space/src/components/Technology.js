@@ -112,7 +112,7 @@ export default function Technology() {
 
     if (!isTablet && !isMobile) {
         return (
-            <Box className='TechnologyContent' width='100%' height='100vh' display='flex'>
+            <Box className='TechnologyContent' width='100%' height='100vh' display='flex' overflow='hidden'>
                 <Stack justifyContent='center' width='88%' marginLeft='12%' marginTop='125px'>
                     <Typography variant='h5' color='white'><b style={{opacity:'0.3', paddingRight:'28px'}}>03</b> Space launch 101</Typography>
     
