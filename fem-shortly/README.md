@@ -34,7 +34,7 @@ Users should be able to:
 - [MUI](https://mui.com/) - React Library
 - Semantic HTML5 markup
 - CSS custom properties
-- [shrtcode](https://shrtco.de/) - API utilized for shortening of URLs.
+- [shrtcode](https://shrtco.de/) - API utilized for shortening of URLs
 
 ## Author
 
