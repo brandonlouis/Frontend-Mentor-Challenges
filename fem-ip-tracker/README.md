@@ -5,7 +5,7 @@
 <div align="center">
 
 [Live](https://blc7896530-fem-ip-tracker.netlify.app/)
-| [Solution]()
+| [Solution](https://www.frontendmentor.io/solutions/responsive-ip-address-tracker-webpage-using-reactjs-56OqOk19FH)
 | [Challenge](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0/hub)
 
 Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
