@@ -102,7 +102,7 @@ export default function Home() {
                                 error={isError}
                                 helperText={isError ? errorCodes[errorCode] : null}
                             />
-                            <Button variant="contained" color="primary" size="large" type="submit" sx={{color:'white', height:'3.4rem', width:'165px', borderRadius:'10px'}}>{loading ? <CircularProgress color='common'/> : 'Shorten it!'}</Button>
+                            <Button variant="contained" color="primary" size="large" type="submit" sx={{color:'white', height:'3.4rem', width:'165px', borderRadius:'10px'}}>{loading ? <CircularProgress color='common' size='2rem'/> : 'Shorten it!'}</Button>
                         </form>
                     </Box>
 
@@ -188,7 +188,7 @@ export default function Home() {
                                 error={isError}
                                 helperText={isError ? errorCodes[errorCode] : null}
                             />
-                            <Button variant="contained" color="primary" size="large" type="submit" sx={{height:'3.4rem',  borderRadius:'10px'}}>{loading ? <CircularProgress color='common'/> : 'Shorten it!'}</Button>
+                            <Button variant="contained" color="primary" size="large" type="submit" sx={{height:'3.4rem',  borderRadius:'10px'}}>{loading ? <CircularProgress color='common' size='2rem'/> : 'Shorten it!'}</Button>
                         </form>
                     </Box>
 
