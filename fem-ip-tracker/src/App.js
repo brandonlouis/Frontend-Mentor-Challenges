@@ -179,8 +179,8 @@ function App() {
                     </MapContainer>
                 </Stack>
                 <Box sx={{color:'darkgray', fontSize:'10px', width:'100vw', textAlign:'center', position:'absolute', bottom:'10px', zIndex:'3'}}>
-                    Challenge by <a style={{color: 'gray', fontSize:'10px'}} href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0/hub" target="_blank">Frontend Mentor</a>. 
-                    Coded by <a style={{color: 'gray', fontSize:'10px'}} href="https://github.com/brandonlouis">Brandon Louis Chia</a>.
+                    Challenge by <a style={{color: 'gray', fontSize:'10px', textDecoration:'none'}} href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0/hub" target="_blank">Frontend Mentor</a>. 
+                    Coded by <a style={{color: 'gray', fontSize:'10px', textDecoration:'none'}} href="https://github.com/brandonlouis">Brandon Louis Chia</a>.
                 </Box>
             </ThemeProvider>
         );
@@ -242,8 +242,8 @@ function App() {
                     </MapContainer>
                 </Stack>
                 <Box sx={{color:'darkgray', fontSize:'10px', width:'100vw', textAlign:'center', position:'absolute', bottom:'10px', zIndex:'3'}}>
-                    Challenge by <a style={{color: 'gray', fontSize:'10px'}} href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0/hub" target="_blank">Frontend Mentor</a>. 
-                    Coded by <a style={{color: 'gray', fontSize:'10px'}} href="https://github.com/brandonlouis">Brandon Louis Chia</a>.
+                    Challenge by <a style={{color: 'gray', fontSize:'10px', textDecoration:'none'}} href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0/hub" target="_blank">Frontend Mentor</a>. 
+                    Coded by <a style={{color: 'gray', fontSize:'10px', textDecoration:'none'}} href="https://github.com/brandonlouis">Brandon Louis Chia</a>.
                 </Box>
             </ThemeProvider>
         );
