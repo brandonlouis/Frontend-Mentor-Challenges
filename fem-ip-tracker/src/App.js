@@ -61,6 +61,7 @@ function App() {
     const [coords, setCoords] = useState([0, 0])
     const [errorCode, setErrorCode] = useState('')
     const errorCodes = {
+        1: 'Please disable browser extensions if the page is not functioning properly.',
         403: 'API credit limit reached',
         422: 'Invalid IP address. Please try again.'
     }
@@ -75,6 +76,12 @@ function App() {
     useEffect(() => {
         getDataOnLoad()
         trackAddress()
+
+        setTimeout(() => {
+            if (addressData === '') {
+                setErrorCode('1')
+            }
+        }, 2000)
     }, []);
     
     const trackAddress = async () => {
