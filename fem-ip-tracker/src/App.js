@@ -6,51 +6,51 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { Box, Stack, TextField, Button, createTheme, ThemeProvider, CircularProgress } from '@mui/material'
 import { ReactComponent as IconArrow } from './img/icon-arrow.svg'
 
-function App() {
-    const theme = createTheme({
-        components: {
-            MuiTextField: {
-                styleOverrides: {
-                    root: ({ ownerState }) => ({
-                        ...(ownerState.variant === 'outlined' && {
-                            backgroundColor: '#FFF',
+const theme = createTheme({
+    components: {
+        MuiTextField: {
+            styleOverrides: {
+                root: ({ ownerState }) => ({
+                    ...(ownerState.variant === 'outlined' && {
+                        backgroundColor: '#FFF',
+                        borderRadius: '15px 0 0 15px',
+                        '& .Mui-focused ': {
+                            borderRadius: '15px',
+                        },
+                        '& .MuiOutlinedInput-root': {
+                            paddingRight: 0,
                             borderRadius: '15px 0 0 15px',
-                            '& .Mui-focused ': {
-                                borderRadius: '15px',
-                            },
-                            '& .MuiOutlinedInput-root': {
-                                paddingRight: 0,
-                                borderRadius: '15px 0 0 15px',
-                            },
-                            input: {
-                                fontFamily: 'Rubik',
-                                fontSize: '18px',
-                            }
-                        }),
+                        },
+                        input: {
+                            fontFamily: 'Rubik',
+                            fontSize: '18px',
+                        }
                     }),
-                },
-            },
-            MuiButton: {
-                styleOverrides: {
-                    root: ({ ownerState }) => ({
-                        ...(ownerState.variant === 'filled' && {
-                            backgroundColor: 'black',
-                            borderRadius: '0 15px 15px 0',
-                            '&:hover': {
-                                backgroundColor: '#444',
-                            },
-                        }),
-                    }),
-                },
+                }),
             },
         },
-        palette: {
-            common: {
-                main: '#FFF',
-            }
+        MuiButton: {
+            styleOverrides: {
+                root: ({ ownerState }) => ({
+                    ...(ownerState.variant === 'filled' && {
+                        backgroundColor: 'black',
+                        borderRadius: '0 15px 15px 0',
+                        '&:hover': {
+                            backgroundColor: '#444',
+                        },
+                    }),
+                }),
+            },
         },
-    });
+    },
+    palette: {
+        common: {
+            main: '#FFF',
+        }
+    },
+});
 
+function App() {
     const isMobile = useMediaQuery({ query: '(max-width: 850px)' })
 
     const mapRef = useRef(null);
