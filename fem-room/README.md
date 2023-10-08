@@ -5,7 +5,7 @@
 <div align="center">
 
 [Live](https://blc7896530-fem-room.netlify.app/)
-| [Solution]()
+| [Solution](https://www.frontendmentor.io/solutions/responsive-room-homepage-using-reactjs-Ko1mccaGPQ)
 | [Challenge](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq)
 
 Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
@@ -28,7 +28,7 @@ Users should be able to:
 ## Built with
 
 - [React](https://reactjs.org/) - JS library
-- [MUI](https://mui.com/) - React Library
+- [Material UI](https://mui.com/) - React Library
 - Semantic HTML5 markup
 - CSS custom properties
 
