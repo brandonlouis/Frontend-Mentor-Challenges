@@ -1,0 +1,168 @@
+body {
+    font-family: 'League Spartan';
+    background-color: gray;
+    overscroll-behavior: none;
+}
+
+h1 {
+    font-size: 47px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    letter-spacing: -1px;
+}
+h3 {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin: 0;
+}
+p {
+    font-size: 15px;
+    color: #a1a1a1;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+img { 
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Navbar */
+.navLinks {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.navLinks:hover {
+    border-bottom: 2px solid white;
+}
+
+
+/* Page Content */
+.slideContent {
+    padding: 0 100px;
+}
+
+.shopNow {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 12px;
+    text-decoration: none;
+    margin: 25px 0;
+    width: fit-content;;
+}
+.shopNow:hover {
+    color: #a1a1a1;
+}
+
+.slideArrows {
+    height: 6rem;
+    width: 11.75vw;
+}
+
+.aboutContent {
+    padding: 0 50px;
+}
+
+
+
+
+@media screen and (max-width: 1245px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    /* Page Content */
+    .shopNow {
+        font-size: 13px;
+    }
+
+    .slideContent {
+        padding: 0 75px;
+    }
+
+    .slideArrows {
+        height: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    /* Page Content */
+    .shopNow {
+        font-size: 12px;
+    }
+
+    .slideContent {
+        padding: 0 50px;
+    }
+
+    .slideArrows {
+        height: 3.5rem;
+    }
+
+}
+
+@media screen and (max-width: 965px) {
+    p {
+        font-size: 14px;
+    }
+    
+    h3 {
+        font-size: 14px;
+    }
+
+
+    /* Navbar */
+    .navLinks {
+        font-size: 14px;
+    }
+
+
+    /* Page Content */
+    .slideContent {
+        padding: 0 25px;
+    }
+
+    .aboutContent {
+        padding: 0 25px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    /* Page Content */
+    .slideArrows {
+        width: 100px;
+    }
+
+    .slideContent {
+        padding: 50px 10%;
+    }
+
+    .shopNow {
+        margin: 25px 0 0;
+    }
+
+    .aboutContent {
+        padding: 50px 10%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    /* Navbar */
+    .modalNavbar .navLinks {
+        color: black;
+        padding-bottom: 0;
+    }
+    .modalNavbar .navLinks:hover {
+        border-bottom: none;
+    }
+}
