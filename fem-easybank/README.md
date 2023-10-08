@@ -27,7 +27,7 @@ Users should be able to:
 ## Built with
 
 - [React](https://reactjs.org/) - JS library
-- [MUI](https://mui.com/) - React Library
+- [Material UI](https://mui.com/) - React Library
 - Semantic HTML5 markup
 - CSS custom properties
 
