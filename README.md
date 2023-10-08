@@ -1,5 +1,5 @@
 
-<h1 align="center">Completed Projects</h1>
+<h1 align="center">Completed Challenges</h1>
 
 <div align="center">
 
